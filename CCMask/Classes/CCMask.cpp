@@ -9,6 +9,16 @@
 #include "CCMask.h"
 USING_NS_CC;
 
+CCMask::CCMask()
+: m_pSprite(NULL)
+, m_pMaskTexture(NULL)
+, m_uTextureLocation(0)
+, m_uMaskLocation(0)
+, m_pMaskSprite(NULL)
+{
+    
+}
+
 CCMask* CCMask::create(CCSprite *maskSprite, CCSprite * sprite)
 {
     CCMask* pRet = new CCMask();

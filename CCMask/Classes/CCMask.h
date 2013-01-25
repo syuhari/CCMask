@@ -22,6 +22,7 @@ public:
     CC_SYNTHESIZE(GLuint, m_uMaskLocation, MaskLocation)
     CC_SYNTHESIZE_RETAIN(CCSprite*, m_pMaskSprite, MaskSprite);
     
+    CCMask();
     virtual ~CCMask();
 
     // Initialize a masked object based on an object sprite and a mask sprite
