@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C364E0B716B2182B009DB90A /* mask_star.png in Resources */ = {isa = PBXBuildFile; fileRef = C364E0B616B2182B009DB90A /* mask_star.png */; };
 		C392124716AE790600069063 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C392124616AE790600069063 /* QuartzCore.framework */; };
 		C392124916AE790600069063 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C392124816AE790600069063 /* OpenGLES.framework */; };
 		C392124B16AE790600069063 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C392124A16AE790600069063 /* OpenAL.framework */; };
@@ -212,6 +213,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C364E0B616B2182B009DB90A /* mask_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mask_star.png; path = Resources/mask_star.png; sourceTree = "<group>"; };
 		C392124216AE790600069063 /* CCMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C392124616AE790600069063 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C392124816AE790600069063 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -724,6 +726,7 @@
 		C392125716AE790600069063 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C364E0B616B2182B009DB90A /* mask_star.png */,
 				C392150216AE799300069063 /* mask_circle.png */,
 				C392125816AE790600069063 /* CloseNormal.png */,
 				C392125A16AE790600069063 /* CloseSelected.png */,
@@ -1629,6 +1632,7 @@
 				C392126D16AE790600069063 /* iTunesArtwork in Resources */,
 				C39212FF16AE790700069063 /* ChangeLog in Resources */,
 				C392150316AE799300069063 /* mask_circle.png in Resources */,
+				C364E0B716B2182B009DB90A /* mask_star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1948,6 +1952,7 @@
 				C39214FE16AE790C00069063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

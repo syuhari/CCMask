@@ -99,9 +99,9 @@ void CCMask::draw()
 
 void CCMask::needsLayout()
 {
-    //m_pSprite->setPosition(ccp(m_pSprite->getContentSize().width / 2, m_pSprite->getContentSize().height / 2));
     if (m_pSprite==NULL) return;
     
+    m_pSprite->setFlipY(true);
     CCRenderTexture *rt = CCRenderTexture::create((int)m_pMaskTexture->getContentSize().width, (int)m_pMaskTexture->getContentSize().height);
     
     rt->begin();
@@ -109,10 +109,10 @@ void CCMask::needsLayout()
     rt->end();
     
     this->setTexture(rt->getSprite()->getTexture());
-    this->setFlipY(true);
 }
 
-void CCMask::changeObject(CCSprite* object_) {
+void CCMask::changeObject(CCSprite* object_)
+{
     this->setSprite(object_);
     this->needsLayout();
 }

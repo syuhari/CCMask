@@ -54,7 +54,7 @@ bool HelloWorld::init()
     CCSize size = CCDirector::sharedDirector()->getWinSize();
     
     // Create a mask and an object
-    CCSprite* mask = CCSprite::create("mask_circle.png");
+    CCSprite* mask = CCSprite::create("mask_star.png");
     CCSprite* object = CCSprite::create("HelloWorld.png");
     object->setPosition(ccp(mask->getContentSize().width/2, mask->getContentSize().height/2));
     
